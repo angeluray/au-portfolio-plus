@@ -1,0 +1,49 @@
+.App {
+  text-align: center;
+  background-color: #282c34;
+}
+
+/* @media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+} */
+
+.portfolio-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10%;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.my-nav {
+  backdrop-filter: blur(10px);
+}
+
+/* .my-profile-photo {
+  background-color: aqua;
+} */
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(#e66465, #9198e5);
+}.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(#e66465, #9198e5);
+}
+
+.photo {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 250px;
+  width: 250px;
+}
