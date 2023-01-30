@@ -1,50 +1,62 @@
 /* eslint-disable import/no-extraneous-dependencies */
 import React from 'react';
-import Carousel from 'react-bootstrap/Carousel';
-import firstProject from '../mv-movie.png';
-import secondProject from '../hotelator.png';
-import thirdProject from '../space-travelers.png';
+import ProjectCardItem from './ProjectCardItem';
 
-const Projects = () => (
-  <Carousel>
-    <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src={firstProject}
-        alt="First slide"
-      />
-      <Carousel.Caption>
-        <h3>First slide label</h3>
-        <p>Nulla vitae elit libero, a pharetra augue mollis interdum.</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src={secondProject}
-        alt="Second slide"
-      />
-
-      <Carousel.Caption>
-        <h3>Second slide label</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
-      </Carousel.Caption>
-    </Carousel.Item>
-    <Carousel.Item>
-      <img
-        className="d-block w-100"
-        src={thirdProject}
-        alt="Third slide"
-      />
-
-      <Carousel.Caption>
-        <h3>Third slide label</h3>
-        <p>
-          Praesent commodo cursus magna, vel scelerisque nisl consectetur.
-        </p>
-      </Carousel.Caption>
-    </Carousel.Item>
-  </Carousel>
-);
+const Projects = () => {
+  const projectsData = [
+    {
+      id: 1,
+      title: 'First project',
+      image: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      description: 'Lorem impsun',
+      cardImage: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      cardDescription: 'Lorem impusn',
+      liveSource: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      liveDemo: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+    },
+    {
+      id: 2,
+      title: 'Second project',
+      image: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      description: 'Lorem impsun',
+      cardImage: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      cardDescription: 'Lorem impusn',
+      liveSource: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      liveDemo: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+    },
+    {
+      id: 3,
+      title: 'Third project',
+      image: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      description: 'Lorem impsun',
+      cardImage: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      cardDescription: 'Lorem impusn',
+      liveSource: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      liveDemo: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+    },
+    {
+      id: 4,
+      title: 'Fourth project',
+      image: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      description: 'Lorem impsun',
+      cardImage: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      cardDescription: 'Lorem impusn',
+      liveSource: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+      liveDemo: 'https://mdbootstrap.com/img/new/standard/nature/184.webp',
+    },
+  ];
+  return (
+    <>
+      <div className="d-flex justify-content-center mb-4 pt-5">
+        <hr className="devider" />
+        <h3 className="h3-title">My featured projects</h3>
+        <hr className="devider" />
+      </div>
+      <div className="p-3 mb-5 d-flex flex-wrap flex-md-column justify-content-md-center gap-4">
+        { projectsData.map((project) => <ProjectCardItem key={project.id} project={project} />)}
+      </div>
+    </>
+  );
+};
 
 export default Projects;
