@@ -1,0 +1,239 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Poppins&display=swap');
+
+.portfolio-header {
+  /* background-color: #282c34; */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 5%;
+  /* justify-content: center; */
+  /* font-size: calc(10px + 2vmin); */
+  color: white;
+}
+
+.my-nav {
+  backdrop-filter: blur(10px);
+}
+
+.brand {
+  font-family: 'DM Serif Display', serif;
+}
+
+.collapse-my-nav {
+  font-family: 'Poppins', sans-serif;
+}
+
+/* .circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(#e66465, #9198e5);
+}
+
+.circle {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  background: radial-gradient(#e66465, #9198e5);
+} */
+
+.circle-1,
+.circle-2,
+.circle-3,
+.circle-5,
+.circle-6 {
+  min-width: 250px;
+  height: 250px;
+  /* mix-blend-mode: multiply; */
+  filter: blur(24px);
+}
+
+.circle-1 {
+  background: radial-gradient(#5dd4a8, #78d2f5);
+  left: 0;
+  top: 180px;
+  z-index: -100;
+}
+.circle-2 {
+  background: radial-gradient(#6471e6, #e591de);
+  right: 0px;
+}
+.circle-3 {
+  background: radial-gradient(#5dd4a8, #787af5);
+  left: 70px;
+  top: -150px;
+}
+
+.circle-4 {
+  min-width: 250px;
+  height: 140px;
+  transform: rotate(25deg);
+  filter: blur(15px);
+  background: radial-gradient(#5dd4a8, #787af5);
+  top: 820px;
+  left: 0px;
+}
+
+.circle-5 {
+  min-width: 250px;
+  height: 95px;
+  transform: rotate(-25deg);
+  filter: blur(15px);
+  background: radial-gradient(#5dd4a8, #787af5);
+  top: 178%;
+  left: 20px;
+}
+
+.circle-6 {
+  min-width: 150px;
+  height: 150px;
+  filter: blur(15px);
+  background: radial-gradient(#5dd4a8, #78d2f5);
+  top: 140%;
+  right: 5px;
+}
+
+.circle-7 {
+  min-width: 60px;
+  height: 150px;
+  filter: blur(15px);
+  background: radial-gradient(#5dd4a8, #78d2f5);
+  transform: rotate(40deg);
+  top: 245%;
+  right: 40px;
+  z-index: -100;
+}
+
+.circle-8 {
+  min-width: 250px;
+  height: 250px;
+  filter: blur(15px);
+  background: radial-gradient(#5dd4a8, #78d2f5);
+  transform: rotate(40deg);
+  top: 540%;
+  right: 40px;
+  z-index: -100;
+}
+
+.scale-up-center {
+  animation: scale-up-center 7s cubic-bezier(0.39, 0.575, 0.565, 1) infinite both;
+}
+
+@keyframes scale-up-center {
+  0% {
+    transform: translate(0px, 0px) scale(1);
+  }
+  33% {
+    transform: translate(30px, -50px) scale(1.1);
+  }
+  66% {
+    transform: translate(-20px, 20px) scale(0.9);
+  }
+  100% {
+    transform: translate(0px, 0px) scale(1);
+  }
+}
+
+.photo {
+  object-fit: cover;
+  border-radius: 50%;
+  height: 200px;
+  width: 200px;
+  z-index: 10;
+}
+
+.name-header,
+.description-header {
+  color: rgb(48, 48, 48);
+  font-family: 'DM Serif Display', serif;
+}
+
+.name-header {
+  font-size: 43px;
+}
+
+.description-header {
+  font-size: 25px;
+}
+
+.career-title {
+  color: #585cdc;
+}
+
+.media-icon {
+  width: 35px;
+}
+
+.card-toolbox {
+backdrop-filter: blur( 9px ) !important;
+-webkit-backdrop-filter: blur( 9px ) !important;
+}
+
+.tb-t {
+  font-family: 'DM Serif Display', serif;
+}
+
+.title-toolbox-1 {
+  color: #651FFF !important;
+}
+
+.card-title.tb-t.dif {
+  color: #00ACC1 !important;
+}
+
+.text-secondary {
+  color: #304FFE !important;
+}
+
+.badge.bg-primary.my-badge {
+  background-color: #651FFF !important;
+}
+
+.badge.bg-secondary {
+  background-color: #00ACC1 !important;
+}
+
+.h3-title {
+  color: #585cdc;
+  font-family: 'Poppins', sans-serif;
+}
+
+.devider {
+  color: #0ae928;
+  width: 80px;
+}
+
+.about-home {
+  font-style: italic;
+  font-family: 'DM Serif Display', serif;
+  font-size: 40px;
+}
+
+.different {
+  color: #0fc853;
+}
+
+.about-home-description {
+  font-family: 'Poppins', sans-serif;
+  text-align: start;
+  color: rgba(48, 48, 48, 0.83);
+}
+
+.footer-name {
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+}
+
+.footer-form {
+  font-family: 'DM Serif Display', serif;
+  font-size: 25px;
+}
+
+.footer-description {
+  font-family: 'Poppins', sans-serif;
+}
+
+.contact-input {
+  font-family: 'Poppins', sans-serif;
+}
