@@ -42,7 +42,7 @@ const Footer = () => {
       <div className="circle-11 rounded-circle position-absolute opacity-70" />
       <div className="circle-12 rounded-circle position-absolute opacity-70" />
       <div className="circle-13 rounded-circle position-absolute opacity-70" />
-      <MDBFooter bgColor="transparent" className="text-center text-lg-start text-muted card-toolbox ctb-1 shadow-1">
+      <MDBFooter bgColor="transparent" className="text-center text-lg-start text-muted card-toolbox ctb-1 shadow-1" id="contact-me">
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
             <span>Get connected with me on social networks:</span>
@@ -61,12 +61,12 @@ const Footer = () => {
           </div>
         </section>
 
-        <section className="">
+        <section>
           <MDBContainer className="text-center text-md-start mt-5">
             <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4 d-flex flex-column justify-content-center align-items-center">
+              <MDBCol md="3" lg="6" xl="4" className="mx-auto mb-4 d-flex flex-column justify-content-center align-items-center">
 
-                <h6 className="mb-4 footer-name text-uppercase">
+                <h6 className="mb-4 footer-name text-uppercase d-flex justify-content-center align-items-center gap-2">
                   Angel Uray
                   {' '}
                   <MDBIcon fas icon="globe" />
@@ -74,7 +74,7 @@ const Footer = () => {
                   Web services
                 </h6>
 
-                <p className="footer-description">
+                <p className="footer-description col-lg-12">
                   If you have an application you are interested in developing,
                   a feature that you need built or a project that needs coding.
                   I&apos;d love to help with it. I constantly develop my skills in
@@ -82,9 +82,9 @@ const Footer = () => {
                 </p>
               </MDBCol>
 
-              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4 p-3">
-                <h6 className="text-uppercase fw-bold mb-4 footer-form">Contact me</h6>
-                <form className="contact-input" onSubmit={onSubmit}>
+              <MDBCol md="4" lg="8" xl="7" className="mx-auto mb-md-0 mb-4 p-3">
+                <h6 className="text-uppercase mb-3 footer-form">Contact me</h6>
+                <form className="contact-input d-lg-flex d-xl-flex flex-lg-wrap flex-xl-wrap w-100 gap-3" onSubmit={onSubmit}>
                   <MDBInput
                     id="form4Example1"
                     wrapperClass="mb-4"

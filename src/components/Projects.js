@@ -55,12 +55,12 @@ const Projects = () => {
   ];
   return (
     <>
-      <div className="d-flex justify-content-center mb-4 pt-5">
+      <div className="d-flex justify-content-center mb-4 pt-5" id="work-portfolio">
         <hr className="devider" />
         <h3 className="h3-title">My featured projects</h3>
         <hr className="devider" />
       </div>
-      <div className="p-3 mb-5 d-flex flex-wrap flex-md-column justify-content-md-center gap-4">
+      <div className="p-3 mb-5 d-flex flex-wrap flex-md-column justify-content-md-center flex-lg-row gap-4 col-lg-10 m-lg-auto">
         { projectsData.map((project) => <ProjectCardItem key={project.id} project={project} />)}
       </div>
     </>

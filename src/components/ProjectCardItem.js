@@ -27,8 +27,8 @@ const ProjectCardItem = (props) => {
 
   return (
     <>
-      <MDBCard data-aos="fade-up" background="transparent">
-        <MDBCardImage src={cardImage} position="top" alt="..." className="p-3" id={`card-img-${id}`} />
+      <MDBCard data-aos="fade-up" background="transparent" className="col-lg-6">
+        <MDBCardImage src={cardImage} position="top" alt="..." className="p-3 col-lg-3" id={`card-img-${id}`} />
         <MDBCardBody className="cardBodyItem" background="transparent">
           <MDBCardTitle className="title-pj">{title}</MDBCardTitle>
           <MDBCardText className="description-pj">

@@ -17,7 +17,6 @@ import {
 
 const Modal = (props) => {
   const { project, modalshow, set } = props;
-  console.log(project);
 
   return (
     <>

@@ -15,8 +15,8 @@ const Toolbox = () => {
   }, []);
 
   return (
-    <div className="p-3">
-      <div className="d-flex justify-content-center mb-4">
+    <div className="p-3 d-lg-flex flex-lg-wrap col-lg-10 m-auto justify-content-lg-center">
+      <div className="d-flex justify-content-center mb-4 col-lg-12">
         <hr className="devider" />
         <h3 className="h3-title">My Toolbox</h3>
         <hr className="devider" />
@@ -26,10 +26,10 @@ const Toolbox = () => {
       <div className="circle-5 rounded-circle position-absolute opacity-70" />
       <div className="circle-6 rounded-circle position-absolute opacity-70 scale-up-center" />
 
-      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox" data-aos="fade-up">
+      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox col-lg-4 m-lg-3" data-aos="fade-up">
         <MDBCardBody className="text-dark">
-          <MDBCardTitle className="tb-t title-toolbox-1">Languages</MDBCardTitle>
-          <div className="d-flex gap-2 flex-wrap">
+          <MDBCardTitle className="tb-t title-toolbox-1 text-lg-center mb-3">Languages</MDBCardTitle>
+          <div className="d-flex gap-2 flex-wrap justify-content-lg-center">
             <MDBBadge className="my-badge">Javascript</MDBBadge>
             <MDBBadge className="my-badge">Ruby</MDBBadge>
             <MDBBadge className="my-badge">HTML</MDBBadge>
@@ -38,10 +38,10 @@ const Toolbox = () => {
         </MDBCardBody>
       </MDBCard>
 
-      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox" data-aos="fade-up">
+      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox col-lg-4 m-lg-3" data-aos="fade-up">
         <MDBCardBody className="text-primary">
-          <MDBCardTitle className="tb-t">Frameworks and Libraries</MDBCardTitle>
-          <div className="d-flex gap-2 flex-wrap">
+          <MDBCardTitle className="tb-t text-lg-center mb-3">Frameworks and Libraries</MDBCardTitle>
+          <div className="d-flex gap-2 flex-wrap justify-content-lg-center">
             <MDBBadge>Ruby on Rails</MDBBadge>
             <MDBBadge>React</MDBBadge>
             <MDBBadge>Redux</MDBBadge>
@@ -54,10 +54,10 @@ const Toolbox = () => {
         </MDBCardBody>
       </MDBCard>
 
-      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox" data-aos="fade-up">
+      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox col-lg-4 m-lg-3" data-aos="fade-up">
         <MDBCardBody className="text-info">
-          <MDBCardTitle className="tb-t">Tools and Methodologies</MDBCardTitle>
-          <div className="d-flex gap-2">
+          <MDBCardTitle className="tb-t text-lg-center mb-3">Tools and Methodologies</MDBCardTitle>
+          <div className="d-flex gap-2 flex-wrap justify-content-lg-center">
             <MDBBadge color="info">Git</MDBBadge>
             <MDBBadge color="info">GitHub</MDBBadge>
             <MDBBadge color="info">Eslint, Rubocop, Stylinter</MDBBadge>
@@ -66,15 +66,15 @@ const Toolbox = () => {
         </MDBCardBody>
       </MDBCard>
 
-      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox" data-aos="fade-up">
+      <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox col-lg-4 m-lg-3" data-aos="fade-up">
         <MDBCardBody>
-          <MDBCardTitle className="tb-t dif">Soft skills</MDBCardTitle>
-          <div className="d-flex gap-2 flex-wrap">
+          <MDBCardTitle className="tb-t dif text-lg-center mb-3">Soft skills</MDBCardTitle>
+          <div className="d-flex gap-2 flex-wrap justify-content-lg-center">
             <MDBBadge color="secondary">Problem solving, Critical thinking</MDBBadge>
             <MDBBadge color="secondary">Communication</MDBBadge>
             <MDBBadge color="secondary">Time management</MDBBadge>
-            <MDBBadge color="secondary">Mentoring</MDBBadge>
             <MDBBadge color="secondary">Self-taught, Adaptability</MDBBadge>
+            <MDBBadge color="secondary">Mentoring</MDBBadge>
             <MDBBadge color="secondary">Teamwork</MDBBadge>
           </div>
         </MDBCardBody>
