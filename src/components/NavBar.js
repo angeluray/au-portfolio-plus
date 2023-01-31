@@ -34,15 +34,15 @@ function NavBar() {
         <MDBCollapse navbar show={showNavCentred} id="navbarCenteredExample">
           <MDBNavbarNav className="mb-2 mb-lg-0 d-flex-lg justify-content-lg-center collapse-my-nav">
             <MDBNavbarItem>
-              <MDBNavbarLink active aria-current="page" href="#">
+              <MDBNavbarLink active aria-current="page" href="#about-me">
                 About
               </MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Portfolio</MDBNavbarLink>
+              <MDBNavbarLink href="#work-portfolio">Portfolio</MDBNavbarLink>
             </MDBNavbarItem>
             <MDBNavbarItem>
-              <MDBNavbarLink href="#">Contact</MDBNavbarLink>
+              <MDBNavbarLink href="#contact-me">Contact</MDBNavbarLink>
             </MDBNavbarItem>
           </MDBNavbarNav>
         </MDBCollapse>

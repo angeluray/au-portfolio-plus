@@ -19,14 +19,14 @@ const AboutHome = () => {
   }, []);
 
   return (
-    <div className="p-3">
+    <div className="p-3 d-lg-flex flex-lg-column col-lg-6 m-auto" id="about-me">
       <div className="d-flex justify-content-center mb-4 pt-4">
         <hr className="devider" />
         <h3 className="h3-title">About me</h3>
         <hr className="devider" />
       </div>
-      <h3 className="about-home" data-aos="fade-rigth">
-        I am a Full-stack developer, but you can call me
+      <h3 className="about-home col-lg-6 text-lg-start col-lg-12 pb-3" data-aos="fade-rigth">
+        I am a Full-stack Software developer, but you can call me
         {' '}
         <span className="different">ready</span>
         .
@@ -38,9 +38,12 @@ const AboutHome = () => {
         maintaining, and improving their Internet presence through Web Applications
         as a self-taught Full-Stack Software Developer.
         I actively seek new opportunities to improve my knowledge,
-        face new challenges and grow as a professional within this groundbreaking field.
+        face new challenges and grow as a professional,
+        this eagerness has made me able to work with
+        teams around the world remotely, mentor Jr software
+        development students, and built more than 30 projects within this innovative field.
       </p>
-      <Button onClick={saveFile} className="d-flex align-items-center gap-2" data-aos="fade-left">
+      <Button onClick={saveFile} className="d-flex align-items-center gap-2 col-lg-3 justify-content-center" data-aos="fade-left">
         <MDBIcon fas icon="cloud-download-alt" />
         Get my CV
       </Button>

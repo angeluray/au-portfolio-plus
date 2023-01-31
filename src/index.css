@@ -7,6 +7,14 @@ body {
   -moz-osx-font-smoothing: grayscale;
   /* background-color: #282c34 !important; */
   background-color: #ededed !important;
+  overflow-x: hidden;
+  -ms-overflow-style: none; /* for Internet Explorer, Edge */
+  scrollbar-width: none; /* for Firefox */
+  overflow-y: scroll;
+}
+
+body::-webkit-scrollbar {
+  display: none;
 }
 
 code {
