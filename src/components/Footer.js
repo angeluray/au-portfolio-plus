@@ -36,8 +36,13 @@ const Footer = () => {
 
   return (
     <>
-      <div className="circle-8 rounded-circle position-absolute opacity-70" />
-      <MDBFooter bgColor="transparent" className="text-center text-lg-start text-muted card-toolbox shadow-1">
+      <div className="circle-8 rounded-circle position-absolute opacity-70 scale-up-center" />
+      <div className="circle-9 rounded-circle position-absolute opacity-70" />
+      <div className="circle-10 rounded-circle position-absolute opacity-70" />
+      <div className="circle-11 rounded-circle position-absolute opacity-70" />
+      <div className="circle-12 rounded-circle position-absolute opacity-70" />
+      <div className="circle-13 rounded-circle position-absolute opacity-70" />
+      <MDBFooter bgColor="transparent" className="text-center text-lg-start text-muted card-toolbox ctb-1 shadow-1">
         <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
             <span>Get connected with me on social networks:</span>
@@ -59,24 +64,25 @@ const Footer = () => {
         <section className="">
           <MDBContainer className="text-center text-md-start mt-5">
             <MDBRow className="mt-3">
-              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4">
+              <MDBCol md="3" lg="4" xl="3" className="mx-auto mb-4 d-flex flex-column justify-content-center align-items-center">
 
                 <h6 className="mb-4 footer-name text-uppercase">
                   Angel Uray
                   {' '}
-                  <MDBIcon color="secondary" icon="gem" />
+                  <MDBIcon fas icon="globe" />
                   {' '}
                   Web services
                 </h6>
 
                 <p className="footer-description">
-                  Here you can use rows and columns to organize your footer content.
-                  Lorem ipsum dolor sit
-                  amet, consectetur adipisicing elit.
+                  If you have an application you are interested in developing,
+                  a feature that you need built or a project that needs coding.
+                  I&apos;d love to help with it. I constantly develop my skills in
+                  order to give you the best piece of work.
                 </p>
               </MDBCol>
 
-              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4">
+              <MDBCol md="4" lg="3" xl="3" className="mx-auto mb-md-0 mb-4 p-3">
                 <h6 className="text-uppercase fw-bold mb-4 footer-form">Contact me</h6>
                 <form className="contact-input" onSubmit={onSubmit}>
                   <MDBInput
@@ -130,8 +136,8 @@ const Footer = () => {
 
         <div className="text-center p-4 footer-bottom-text" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
           © 2023 Copyright:
-          <a className="text-reset fw-bold" href="https://mdbootstrap.com/">
-            angeluray.dev
+          <a className="text-reset fw-bold" href="https://github.com/angeluray">
+            angelu.dev
           </a>
         </div>
       </MDBFooter>

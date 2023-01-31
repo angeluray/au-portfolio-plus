@@ -58,7 +58,6 @@ function App() {
         <Toolbox />
         <AboutHome />
         <Projects />
-        {/* <FormMessage /> */}
       </MDBContainer>
       <Footer />
     </>

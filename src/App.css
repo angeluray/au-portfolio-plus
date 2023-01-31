@@ -106,13 +106,68 @@
 }
 
 .circle-8 {
+  min-width: 200px;
+  height: 180px;
+  filter: blur(15px);
+  background: radial-gradient(#6471e6, #e591de);
+  transform: rotate(40deg);
+  top: 335%;
+  right: 40px;
+  z-index: -100;
+}
+
+.circle-9 {
   min-width: 250px;
-  height: 250px;
+  height: 150px;
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #78d2f5);
   transform: rotate(40deg);
-  top: 540%;
-  right: 40px;
+  top: 400%;
+  left: 40px;
+  z-index: -100;
+}
+
+.circle-10 {
+  min-width: 250px;
+  height: 140px;
+  filter: blur(17px);
+  background: radial-gradient(#5dd4a8, #787af5);
+  transform: rotate(40deg);
+  top: 412%;
+  left: 45px;
+  z-index: -100;
+}
+
+.circle-11 {
+  min-width: 250px;
+  height: 80px;
+  filter: blur(18px);
+  background: radial-gradient(#5dd4a8, #78d2f5);
+  transform: rotate(-40deg);
+  top: 500%;
+  right: 80px;
+  z-index: -100;
+}
+
+.circle-12 {
+  min-width: 250px;
+  height: 140px;
+  filter: blur(30px);
+  background: radial-gradient(#6471e6, #e591de, #78d2f5);
+  transform: rotate(40deg);
+  top: 580%;
+  left: 45px;
+  z-index: -100;
+}
+
+.circle-13 {
+  min-width: 250px;
+  height: 140px;
+  filter: blur(30px);
+  background: radial-gradient(#78d2f5, #5dd4a8, #ffff);
+  transform: rotate(40deg);
+  top: 583%;
+  left: 95px;
   z-index: -100;
 }
 
@@ -168,6 +223,10 @@
 .card-toolbox {
 backdrop-filter: blur( 9px ) !important;
 -webkit-backdrop-filter: blur( 9px ) !important;
+}
+
+.ctb-1 {
+  background: rgba(255, 255, 255, 0.497);
 }
 
 .tb-t {
@@ -228,11 +287,17 @@ backdrop-filter: blur( 9px ) !important;
 .footer-name {
   font-family: 'DM Serif Display', serif;
   font-size: 25px;
+  color: rgb(48, 48, 48);
 }
 
 .footer-form {
   font-family: 'DM Serif Display', serif;
   font-size: 25px;
+  color: rgb(48, 48, 48);
+}
+
+.footer-description {
+  color: rgba(48, 48, 48, 0.83);
 }
 
 .title-pj,
@@ -305,6 +370,17 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   font-size: 14px !important;
 }
 
+.ripple.ripple-surface.btn.btn-primary.btn-block.mb-4 {
+  background-color: #585cdc !important;
+  border-color: #0fc853;
+  transition: all 0.3s ease;
+}
+
+.ripple.ripple-surface.btn.btn-primary.btn-block.mb-4:hover {
+  background-color: #0fc853 !important;
+  border-color: #585cdc;
+}
+
 @media only screen and (max-width: 768px) {
 
   #card-img-1 {
@@ -335,5 +411,9 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
 
   .wraper-modal {
     width: 80%;
+  }
+
+  .footer-description {
+    width: 94%;
   }
 }
