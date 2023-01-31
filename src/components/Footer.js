@@ -86,14 +86,16 @@ const Footer = () => {
                     label="Name"
                     value={toSend.from_name}
                     onChange={handleChange}
+                    required
                   />
                   <MDBInput
                     id="form4Example1"
                     wrapperClass="mb-4"
-                    label="Email to"
+                    label="Email to (Example: Angel U)"
                     name="to_name"
                     value={toSend.to_name}
                     onChange={handleChange}
+                    required
                   />
                   <MDBInput
                     type="email"
@@ -103,6 +105,7 @@ const Footer = () => {
                     label="Email address"
                     value={toSend.reply_to}
                     onChange={handleChange}
+                    required
                   />
                   <MDBInput
                     wrapperClass="mb-4"
@@ -113,6 +116,7 @@ const Footer = () => {
                     label="Message"
                     value={toSend.message}
                     onChange={handleChange}
+                    required
                   />
 
                   <MDBBtn type="submit" className="mb-4" block>
