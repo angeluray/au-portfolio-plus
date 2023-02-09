@@ -9,7 +9,7 @@ import { send } from 'emailjs-com';
 const Footer = () => {
   const [toSend, setToSend] = useState({
     from_name: '',
-    to_name: '',
+    // to_name: from_name,
     message: '',
     reply_to: '',
   });
@@ -43,7 +43,7 @@ const Footer = () => {
       <div className="circle-12 rounded-circle position-absolute opacity-70" />
       <div className="circle-13 rounded-circle position-absolute opacity-70" />
       <MDBFooter bgColor="transparent" className="text-center text-lg-start text-muted card-toolbox ctb-1 shadow-1" id="contact-me">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <section className="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
             <span>Get connected with me on social networks:</span>
           </div>
@@ -94,7 +94,7 @@ const Footer = () => {
                     onChange={handleChange}
                     required
                   />
-                  <MDBInput
+                  {/* <MDBInput
                     id="form4Example1"
                     wrapperClass="mb-4"
                     label="Email to (Example: Angel U)"
@@ -102,7 +102,7 @@ const Footer = () => {
                     value={toSend.to_name}
                     onChange={handleChange}
                     required
-                  />
+                  /> */}
                   <MDBInput
                     type="email"
                     id="form4Example2"

@@ -51,11 +51,11 @@ const Modal = (props) => {
               </div>
             </MDBModalBody>
             <MDBModalFooter className="d-flex justify-content-center">
-              <MDBBtn href={project.liveDemo} className="modal-btn">
+              <MDBBtn href={project.liveDemo} target="_blank" className="modal-btn">
                 <MDBIcon fas icon="globe-americas" />
                 Live demo
               </MDBBtn>
-              <MDBBtn href={project.liveSource} className="modal-btn">
+              <MDBBtn href={project.liveSource} target="_blank" className="modal-btn">
                 <MDBIcon fab icon="github" />
                 Source code
               </MDBBtn>

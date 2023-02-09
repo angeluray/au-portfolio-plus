@@ -49,7 +49,7 @@ const Projects = () => {
       cardImage: Budged,
       cardDescription: 'A budgeting application that will keep track of all your expenses based on categories created by you within the application and return the total amount of money you have spent by category while keeping you up to date.',
       liveSource: 'https://github.com/angeluray/to-save-cp',
-      liveDemo: 'https://www.youtube.com/watch?v=mc_qPIxRP-s&feature=youtu.be',
+      liveDemo: 'https://little-budged.onrender.com/splashs/index',
       tools: ['Rails', 'PostgreSQL', 'RSpec', 'Capybara', 'CSS', 'Turbo'],
     },
   ];

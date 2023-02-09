@@ -5,10 +5,8 @@ import { MDBContainer } from 'mdb-react-ui-kit';
 import NavBar from './NavBar';
 import photo from '../profile-picture.jpg';
 import Toolbox from './Toolbox';
-// import About from './About';
 import AboutHome from './AboutHome';
 import Projects from './Projects';
-// import FormMessage from './Form';
 import Footer from './Footer';
 
 function App() {
