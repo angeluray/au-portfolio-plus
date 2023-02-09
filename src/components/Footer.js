@@ -9,7 +9,6 @@ import { send } from 'emailjs-com';
 const Footer = () => {
   const [toSend, setToSend] = useState({
     from_name: '',
-    // to_name: from_name,
     message: '',
     reply_to: '',
   });
@@ -28,6 +27,10 @@ const Footer = () => {
       .catch((err) => {
         console.log('FAILED...', err);
       });
+
+      alert(`Hiya ${toSend.from_name}! Your message was succesfully sent😄.`)
+
+      setToSend({from_name: "", message: "", reply_to: ""});
   };
 
   const handleChange = (e) => {
@@ -94,15 +97,6 @@ const Footer = () => {
                     onChange={handleChange}
                     required
                   />
-                  {/* <MDBInput
-                    id="form4Example1"
-                    wrapperClass="mb-4"
-                    label="Email to (Example: Angel U)"
-                    name="to_name"
-                    value={toSend.to_name}
-                    onChange={handleChange}
-                    required
-                  /> */}
                   <MDBInput
                     type="email"
                     id="form4Example2"

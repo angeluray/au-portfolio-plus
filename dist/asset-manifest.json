@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.4167dd89.css",
-    "main.js": "/static/js/main.0a7e06f4.js",
+    "main.js": "/static/js/main.ffcf25fa.js",
     "static/js/787.c2752a17.chunk.js": "/static/js/787.c2752a17.chunk.js",
     "static/media/mv-desktop.png": "/static/media/mv-desktop.ae15d2f7d3853ab12511.png",
     "static/media/hotelator-desktop.png": "/static/media/hotelator-desktop.98e5de0f6e70e4feb026.png",
@@ -10,11 +10,11 @@
     "static/media/twosave-all-categories.png": "/static/media/twosave-all-categories.635ef400105b8b644606.png",
     "index.html": "/index.html",
     "main.4167dd89.css.map": "/static/css/main.4167dd89.css.map",
-    "main.0a7e06f4.js.map": "/static/js/main.0a7e06f4.js.map",
+    "main.ffcf25fa.js.map": "/static/js/main.ffcf25fa.js.map",
     "787.c2752a17.chunk.js.map": "/static/js/787.c2752a17.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.4167dd89.css",
-    "static/js/main.0a7e06f4.js"
+    "static/js/main.ffcf25fa.js"
   ]
 }
