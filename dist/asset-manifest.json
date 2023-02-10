@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.4a3ed6a4.css",
+    "main.css": "/static/css/main.2944f94a.css",
     "main.js": "/static/js/main.5d79eb4c.js",
     "static/js/787.c2752a17.chunk.js": "/static/js/787.c2752a17.chunk.js",
     "static/media/mv-desktop.png": "/static/media/mv-desktop.ae15d2f7d3853ab12511.png",
@@ -9,12 +9,12 @@
     "static/media/space-travelers-tablet.png": "/static/media/space-travelers-tablet.bd8f35f029dc58c6bbe6.png",
     "static/media/twosave-all-categories.png": "/static/media/twosave-all-categories.635ef400105b8b644606.png",
     "index.html": "/index.html",
-    "main.4a3ed6a4.css.map": "/static/css/main.4a3ed6a4.css.map",
+    "main.2944f94a.css.map": "/static/css/main.2944f94a.css.map",
     "main.5d79eb4c.js.map": "/static/js/main.5d79eb4c.js.map",
     "787.c2752a17.chunk.js.map": "/static/js/787.c2752a17.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.4a3ed6a4.css",
+    "static/css/main.2944f94a.css",
     "static/js/main.5d79eb4c.js"
   ]
 }
