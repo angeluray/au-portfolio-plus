@@ -41,7 +41,7 @@ const Footer = () => {
     <>
       <div className="circle-8 rounded-circle position-absolute opacity-70 scale-up-center" />
       <div className="circle-9 rounded-circle position-absolute opacity-70" />
-      <div className="circle-10 rounded-circle position-absolute opacity-70" />
+      <div className="circle-10 rounded-circle position-absolute opacity-70 scale-up-center" />
       <div className="circle-11 rounded-circle position-absolute opacity-70" />
       <div className="circle-12 rounded-circle position-absolute opacity-70" />
       <div className="circle-13 rounded-circle position-absolute opacity-70" />

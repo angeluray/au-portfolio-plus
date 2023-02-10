@@ -18,7 +18,7 @@ function NavBar() {
   const [showNavCentred, setShowNavCentred] = useState(false);
 
   return (
-    <MDBNavbar expand="lg" sticky bgColor="transparent" className="my-nav shadow-1">
+    <MDBNavbar expand="lg" sticky bgColor="transparent" className="my-nav shadow-1" fluid>
       <MDBContainer fluid>
         <MDBNavbarToggler
           type="button"

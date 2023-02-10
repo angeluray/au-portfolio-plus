@@ -24,7 +24,7 @@ const Toolbox = () => {
 
       <div className="circle-4 rounded-circle position-absolute opacity-70" />
       <div className="circle-5 rounded-circle position-absolute opacity-70" />
-      <div className="circle-6 rounded-circle position-absolute opacity-70 scale-up-center" />
+      <div className="circle-6 rounded-circle position-absolute opacity-70" />
 
       <MDBCard shadow="0" border="secondary" background="transparent" className="mb-3 card-toolbox col-lg-4 m-lg-3" data-aos="fade-up">
         <MDBCardBody className="text-dark">
