@@ -54,7 +54,7 @@
   transform: rotate(25deg);
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #787af5);
-  top: 800px;
+  top: 885px;
   left: 19px;
 }
 
@@ -64,7 +64,7 @@
   transform: rotate(-25deg);
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #787af5);
-  top: 1300px;
+  top: 1370px;
   left: 20px;
 }
 
@@ -73,7 +73,7 @@
   height: 150px;
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #78d2f5);
-  top: 1050px;
+  top: 1085px;
   right: 40px;
 }
 
@@ -105,7 +105,7 @@
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #78d2f5);
   transform: rotate(40deg);
-  top: 2820px;
+  top: 2900px;
   left: 40px;
   z-index: -100;
 }
