@@ -52,13 +52,13 @@ const Footer = () => {
           </div>
 
           <div>
-            <a href="https://twitter.com/atangeluray" className="me-4 text-reset">
+            <a href="https://twitter.com/atangeluray" className="me-4 text-reset" target="_blank">
               <MDBIcon color="secondary" fab icon="twitter" />
             </a>
-            <a href="https://www.linkedin.com/in/angeluray-jobs" className="me-4 text-reset">
+            <a href="https://www.linkedin.com/in/angeluray-jobs" className="me-4 text-reset" target="_blank">
               <MDBIcon color="secondary" fab icon="linkedin" />
             </a>
-            <a href="https://github.com/angeluray" className="me-4 text-reset">
+            <a href="https://github.com/angeluray" className="me-4 text-reset" target="_blank">
               <MDBIcon color="secondary" fab icon="github" />
             </a>
           </div>
@@ -130,7 +130,7 @@ const Footer = () => {
 
         <div className="text-center p-4 footer-bottom-text" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
           © 2023 Copyright:
-          <a className="text-reset fw-bold" href="https://github.com/angeluray">
+          <a className="text-reset fw-bold" href="https://github.com/angeluray" target="_blank">
             angelu.dev
           </a>
         </div>
