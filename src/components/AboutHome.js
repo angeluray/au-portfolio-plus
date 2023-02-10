@@ -9,7 +9,7 @@ import 'aos/dist/aos.css';
 const AboutHome = () => {
   const saveFile = () => {
     FileSaver.saveAs(
-      `${process.env.PUBLIC_URL}/resource/Resume.pdf`,
+      `${process.env.PUBLIC_URL}/resource/AResume.pdf`,
       'URAY-RESUME.pdf',
     );
   };
