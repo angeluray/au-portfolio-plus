@@ -9,7 +9,6 @@ import { send } from 'emailjs-com';
 const Footer = () => {
   const [toSend, setToSend] = useState({
     from_name: '',
-    to_name: '',
     message: '',
     reply_to: '',
   });
@@ -28,6 +27,10 @@ const Footer = () => {
       .catch((err) => {
         console.log('FAILED...', err);
       });
+
+      alert(`Hiya ${toSend.from_name}! Your message was succesfully sent😄.`)
+
+      setToSend({from_name: "", message: "", reply_to: ""});
   };
 
   const handleChange = (e) => {
@@ -38,24 +41,24 @@ const Footer = () => {
     <>
       <div className="circle-8 rounded-circle position-absolute opacity-70 scale-up-center" />
       <div className="circle-9 rounded-circle position-absolute opacity-70" />
-      <div className="circle-10 rounded-circle position-absolute opacity-70" />
+      <div className="circle-10 rounded-circle position-absolute opacity-70 scale-up-center" />
       <div className="circle-11 rounded-circle position-absolute opacity-70" />
       <div className="circle-12 rounded-circle position-absolute opacity-70" />
       <div className="circle-13 rounded-circle position-absolute opacity-70" />
       <MDBFooter bgColor="transparent" className="text-center text-lg-start text-muted card-toolbox ctb-1 shadow-1" id="contact-me">
-        <section className="d-flex justify-content-center justify-content-lg-between p-4 border-bottom">
+        <section className="d-flex justify-content-center justify-content-lg-center p-4 border-bottom">
           <div className="me-5 d-none d-lg-block">
             <span>Get connected with me on social networks:</span>
           </div>
 
           <div>
-            <a href="https://twitter.com/atangeluray" className="me-4 text-reset">
+            <a href="https://twitter.com/atangeluray" className="me-4 text-reset" target="_blank">
               <MDBIcon color="secondary" fab icon="twitter" />
             </a>
-            <a href="https://www.linkedin.com/in/angeluray-jobs" className="me-4 text-reset">
+            <a href="https://www.linkedin.com/in/angeluray-jobs" className="me-4 text-reset" target="_blank">
               <MDBIcon color="secondary" fab icon="linkedin" />
             </a>
-            <a href="https://github.com/angeluray" className="me-4 text-reset">
+            <a href="https://github.com/angeluray" className="me-4 text-reset" target="_blank">
               <MDBIcon color="secondary" fab icon="github" />
             </a>
           </div>
@@ -95,15 +98,6 @@ const Footer = () => {
                     required
                   />
                   <MDBInput
-                    id="form4Example1"
-                    wrapperClass="mb-4"
-                    label="Email to (Example: Angel U)"
-                    name="to_name"
-                    value={toSend.to_name}
-                    onChange={handleChange}
-                    required
-                  />
-                  <MDBInput
                     type="email"
                     id="form4Example2"
                     wrapperClass="mb-4"
@@ -136,7 +130,7 @@ const Footer = () => {
 
         <div className="text-center p-4 footer-bottom-text" style={{ backgroundColor: 'rgba(0, 0, 0, 0.05)' }}>
           © 2023 Copyright:
-          <a className="text-reset fw-bold" href="https://github.com/angeluray">
+          <a className="text-reset fw-bold" href="https://github.com/angeluray" target="_blank">
             angelu.dev
           </a>
         </div>
