@@ -54,7 +54,7 @@
   transform: rotate(25deg);
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #787af5);
-  top: 899px;
+  top: 760px;
   left: 19px;
 }
 
@@ -64,7 +64,7 @@
   transform: rotate(-25deg);
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #787af5);
-  top: 1370px;
+  top: 1290px;
   left: 20px;
 }
 
@@ -73,7 +73,7 @@
   height: 150px;
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #78d2f5);
-  top: 1098px;
+  top: 1040px;
   right: 40px;
 }
 
@@ -101,11 +101,11 @@
 
 .circle-9 {
   min-width: 250px;
-  height: 150px;
+  height: 180px;
   filter: blur(15px);
   background: radial-gradient(#5dd4a8, #78d2f5);
   transform: rotate(40deg);
-  top: 2900px;
+  top: 2990px;
   left: 40px;
   z-index: -100;
 }
@@ -115,7 +115,7 @@
   height: 160px;
   filter: blur(19px);
   background: radial-gradient(#5dd4a8, #787af5);
-  transform: rotate(-40deg);
+  transform: rotate(-48deg);
   top: 3400px;
   left: 45px;
   z-index: -100;
@@ -364,43 +364,7 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
   border-color: #585cdc;
 }
 
-/* @media only screen and (max-width: 600px) {
-  .circle-1 {
-  background: radial-gradient(#5dd4a8, #78d2f5);
-  left: 0;
-  top: 160px;
-  z-index: -100;
-  }
-  
-  .circle-2 {
-  background: radial-gradient(#6471e6, #e591de);
-  right: 40px;
-  }
-
-  .circle-3 {
-  background: radial-gradient(#5dd4a8, #787af5);
-  left: 70px;
-  top: -87px;
-  }
-
-  .circle-6 {
-    min-width: 150px;
-    height: 150px;
-    filter: blur(15px);
-    background: radial-gradient(#5dd4a8, #78d2f5);
-    top: 140%;
-    right: 40px;
-  }
-} */
-
 @media only screen and (max-width: 768px) {
-
-  /* html,body {
-    width: 100%;
-    margin: 0;
-    padding: 0;
-    overflow-x: hidden !important;
-  } */
 
   #card-img-1 {
     height: 290px;
@@ -509,29 +473,33 @@ border: 1px solid rgba( 255, 255, 255, 0.18 );
     width: 350px !important;
   }
 
+  .circle-10 {
+    top: 3600px;
+  }
+
   .circle-11 {
-    top: 540%;
+    top: 3300px;
   }
 
   .circle-12 {
-    min-width: 250px;
-    height: 140px;
+    min-width: 550px;
+    height: 50px;
     filter: blur(30px);
     background: radial-gradient(#6471e6, #e591de, #78d2f5);
-    transform: rotate(40deg);
-    top: 540%;
-    left: 45px;
+    transform: rotate(-40deg);
+    top: 3890px;
+    left: 750px;
     z-index: -100;
   }
   
   .circle-13 {
-    min-width: 250px;
-    height: 140px;
+    min-width: 550px;
+    height: 70px;
     filter: blur(30px);
     background: radial-gradient(#78d2f5, #5dd4a8, #ffff);
-    transform: rotate(40deg);
-    top: 540%;
-    left: 95px;
+    transform: rotate(-40deg);
+    top: 3950px;
+    left: 740px;
     z-index: -100;
   }
 
